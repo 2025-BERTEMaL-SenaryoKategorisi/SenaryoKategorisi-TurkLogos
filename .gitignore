@@ -1,0 +1,413 @@
+# TürkLogos Telecom AI Agent - .gitignore
+# TEKNOFEST 2025 Competition Project
+
+# =====================================================
+# Python
+# =====================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# =====================================================
+# FastAPI / Uvicorn
+# =====================================================
+
+# FastAPI logs
+*.log
+logs/
+
+# Uvicorn PID files
+*.pid
+
+# =====================================================
+# Database
+# =====================================================
+
+# SQLite databases (if using for local development)
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# Database migration files (keep structure, ignore data)
+# Uncomment if you want to ignore specific migration files
+# alembic/versions/*.py
+
+# =====================================================
+# Environment Variables & Secrets
+# =====================================================
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Secret keys and API keys
+secrets/
+*.key
+*.pem
+*.crt
+
+# =====================================================
+# IDE & Editor Files
+# =====================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# =====================================================
+# macOS
+# =====================================================
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# =====================================================
+# Windows
+# =====================================================
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =====================================================
+# Linux
+# =====================================================
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# =====================================================
+# Docker
+# =====================================================
+
+# Docker override files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Docker volumes data
+docker-volumes/
+postgres-data/
+redis-data/
+
+# =====================================================
+# Logs & Temporary Files
+# =====================================================
+
+# Application logs
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Cache directories
+.cache/
+cache/
+
+# =====================================================
+# AI/ML Specific
+# =====================================================
+
+# Model files (if storing large models locally)
+models/
+*.model
+*.pkl
+*.joblib
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# =====================================================
+# Testing & Development
+# =====================================================
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Performance profiling
+*.prof
+
+# Local development files
+local_settings.py
+dev_settings.py
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# =====================================================
+# Project Specific
+# =====================================================
+
+# Local configuration overrides
+config/local.py
+app/core/local_config.py
+
+# Sample data exports (keep sample data in repo, ignore exports)
+exports/
+data_exports/
+
+# Local test results
+test_results/
+benchmark_results/
+
+# Local documentation builds
+docs/_build/
+docs/build/
+
+# Local development scripts
+dev_scripts/
+local_dev/
+
+# Upload directories
+uploads/
+user_uploads/
+
+# =====================================================
+# Security & Credentials
+# =====================================================
+
+# SSH keys
+id_rsa
+id_ed25519
+*.pem
+
+# SSL certificates
+*.crt
+*.key
+*.p12
+*.pfx
+
+# API keys and tokens
+api_keys.txt
+tokens.txt
+credentials.json
+
+# OAuth configs
+oauth_config.json
+client_secrets.json
+
+# =====================================================
+# Monitoring & Analytics
+# =====================================================
+
+# Prometheus data
+prometheus_data/
+
+# Grafana data
+grafana_data/
+
+# Application metrics exports
+metrics_exports/
+
+# =====================================================
+# Deployment
+# =====================================================
+
+# Kubernetes manifests with secrets
+k8s-secrets/
+*.secret.yaml
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible vault files
+*.vault
+
+# =====================================================
+# TEKNOFEST 2025 Specific
+# =====================================================
+
+# Competition submission files (keep these organized separately)
+submission/
+competition_build/
+
+# Demo data (if different from sample data)
+demo_data/
+competition_demo/
+
+# Performance benchmarks for competition
+benchmarks/
+performance_tests/
+
+# Video demos and presentations
+demos/
+presentation_materials/
+
+# =====================================================
+# Keep These Files (Negative Patterns)
+# =====================================================
+
+# Keep sample data for development and testing
+!app/services/sample_data.py
+!sample_data/
+
+# Keep migration files
+!alembic/versions/
+
+# Keep documentation
+!docs/
+!README.md
+!*.md
+
+# Keep configuration templates
+!config/*.template
+!*.example.env
+
+# Keep test files
+!test_*.py
+!tests/
+!*_test.py
+
+# Keep requirements files
+!requirements*.txt
+!pyproject.toml
+!setup.py
+
+# Keep Docker files
+!Dockerfile*
+!docker-compose*.yml
+!.dockerignore

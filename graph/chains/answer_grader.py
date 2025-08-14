@@ -2,18 +2,17 @@ from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain_groq import ChatGroq
 
-
-class GradeAnswer(BaseModel):
-
-    binary_score: bool = Field(
-        description="Answer addresses the question, True or False"
-    )
-
-
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0
 )
+
+class GradeAnswer(BaseModel):
+
+    binary_score: str = Field(
+        description="Answer addresses the question, 'yes' or 'no'"
+    )
+
 structured_llm_grader = llm.with_structured_output(GradeAnswer)
 
 system = """You are a grader assessing whether a call center response adequately addresses the customer's question.

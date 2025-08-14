@@ -1,73 +1,51 @@
 """
 Memory-aware node decorators and utilities for LangGraph workflow
 """
-
-import uuid
 from typing import Callable, Dict, Any
-from functools import wraps
 from graph.memory.redis_client import redis_memory
 from graph.state import GraphState
+from typing import Callable
+import uuid
 
 
-def with_memory(node_func: Callable[[GraphState], GraphState]) -> Callable[[GraphState], GraphState]:
-    """
-    Decorator to add Redis memory functionality to any node function.
+def with_memory(node_func: Callable) -> Callable:
+    """Decorator to add Redis memory to any node function"""
 
-    This decorator:
-    1. Loads conversation history and user context from Redis before node execution
-    2. Ensures conversation_id exists
-    3. Saves updated memory back to Redis after node execution
-
-    Args:
-        node_func: The original node function to wrap
-
-    Returns:
-        Memory-enhanced node function
-    """
-
-    @wraps(node_func)
     def memory_wrapper(state: GraphState) -> GraphState:
-        print(f"🧠 Loading memory for node: {node_func.__name__}")
-
-        # Ensure conversation_id exists
         conversation_id = state.get("conversation_id")
         if not conversation_id:
             conversation_id = str(uuid.uuid4())
-            print(f"🆕 Generated new conversation ID: {conversation_id[:8]}...")
             state = {**state, "conversation_id": conversation_id}
 
-        # Load conversation history from Redis
+        # Load conversation history and user context from Redis
         conversation_history = redis_memory.get_conversation_history(conversation_id)
 
         # Try to get phone number from conversation mapping
         phone_number = redis_memory.get_phone_from_conversation(conversation_id)
         user_context = {}
-
-        # Load user context if we have a phone number
         if phone_number:
             user_context = redis_memory.get_user_context(phone_number)
-            print(f"👤 Loaded user context for {phone_number}")
 
-        # Create memory-enhanced state
+        # Add memory to state
         memory_enhanced_state = {
             **state,
             "conversation_history": conversation_history,
             "user_context": user_context
         }
 
-        print(f"📚 Loaded {len(conversation_history)} conversation messages")
-        print(f"👤 Loaded {len(user_context)} user context fields")
-
         # Execute the original node function
-        try:
-            result_state = node_func(memory_enhanced_state)
-        except Exception as e:
-            print(f"❌ Error in node {node_func.__name__}: {e}")
-            # Return original state with error info
-            return {**memory_enhanced_state, "error": str(e)}
+        result_state = node_func(memory_enhanced_state)
 
-        # Save updated memory back to Redis
-        _save_memory_updates(result_state, conversation_id, phone_number)
+        # Save updated conversation history back to Redis
+        if "conversation_history" in result_state:
+            redis_memory.save_conversation_history(
+                conversation_id,
+                result_state["conversation_history"]
+            )
+
+        # Save updated user context if phone number is available
+        if result_state.get("user_context") and phone_number:
+            redis_memory.save_user_context(phone_number, result_state["user_context"])
 
         return result_state
 
@@ -266,50 +244,3 @@ class MemoryContext:
     def update_user_context(self, updates: Dict[str, Any]):
         """Update user context"""
         self.user_context.update(updates)
-
-
-# Example usage function for testing
-def test_memory_functions():
-    """Test memory functionality"""
-
-    print("🧪 Testing memory functions...")
-
-    # Test conversation ID
-    test_conv_id = str(uuid.uuid4())
-    print(f"🆔 Test conversation ID: {test_conv_id}")
-
-    # Test adding messages
-    redis_memory.add_message_to_conversation(test_conv_id, "user", "Merhaba, benim paketim nedir? 0555 123 45 67")
-    redis_memory.add_message_to_conversation(test_conv_id, "assistant", "Merhaba! Paket bilgilerinizi getiriyorum...")
-    redis_memory.add_message_to_conversation(test_conv_id, "user", "Faturamı da görebilir miyim?")
-
-    # Test phone linking
-    redis_memory.link_conversation_to_phone(test_conv_id, "+905551234567")
-
-    # Test user context
-    redis_memory.save_user_context("+905551234567", {
-        "name": "Test User",
-        "package": "Gold",
-        "last_login": "2024-01-15"
-    })
-
-    # Test retrieval
-    history = redis_memory.get_conversation_history(test_conv_id)
-    phone = redis_memory.get_phone_from_conversation(test_conv_id)
-    context = redis_memory.get_user_context("+905551234567")
-
-    print(f"📚 Retrieved {len(history)} messages")
-    print(f"📞 Retrieved phone: {phone}")
-    print(f"👤 Retrieved context: {context}")
-
-    # Test memory context manager
-    with MemoryContext(test_conv_id) as memory:
-        print(f"🧠 Context manager loaded {len(memory.conversation_history)} messages")
-        memory.add_assistant_message("İşte fatura bilgileriniz...")
-        memory.update_user_context({"last_query": "bill_info"})
-
-    print("✅ Memory test completed")
-
-
-if __name__ == "__main__":
-    test_memory_functions()

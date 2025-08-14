@@ -1,18 +1,23 @@
 from typing import List, TypedDict, Optional, Dict, Any
 from langchain.schema import Document
+
+
 class GraphState(TypedDict, total=False):
     """
     Represents the state of our telecom call center graph.
     """
     # Input
     question: str
-
+    conversation_id: str
     # Routing
     datasource: str  # "vectorstore" or "function_calls"
 
     # Document retrieval
     documents: List[Document]
     relevant_documents: List[Document]
+
+    conversation_history: List[Dict[str, str]]  # Loaded from Redis
+    user_context: Dict[str, Any]  # Loaded from Redis
 
     # Tool/API results
     tool_results: Optional[Dict[str, Any]]

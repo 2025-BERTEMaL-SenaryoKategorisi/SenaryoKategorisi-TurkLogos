@@ -32,4 +32,4 @@ def grade_documents(state: GraphState) -> GraphState: # Dict[str, Any]:
             function_calls = True
             continue
 
-    return {"documents": filtered_docs, "question": question, "function_calls": function_calls}
+    return {"documents": filtered_docs, "question": question}

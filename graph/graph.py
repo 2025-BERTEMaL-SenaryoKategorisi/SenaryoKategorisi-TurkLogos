@@ -11,7 +11,7 @@ from graph.nodes.route_question import route_question_node
 from graph.nodes.retrieve import retrieve  # Change this line
 from graph.nodes.grade_documents import grade_documents
 from graph.nodes.function_calls import function_calls_node
-from graph.nodes.generation import generate
+from graph.nodes.generation import generate_answer_node
 from graph.nodes.grade_answer import grade_answer_node
 from graph.nodes.reject_question import reject_question_node
 
@@ -26,7 +26,7 @@ def create_telecom_workflow():
     workflow.add_node("retrieve", retrieve)
     workflow.add_node("grade_documents", grade_documents)
     workflow.add_node("function_calls", function_calls_node)
-    workflow.add_node("generate", generate)
+    workflow.add_node("generate", generate_answer_node)
     workflow.add_node("grade_answer", grade_answer_node)
     workflow.add_node("reject_question", reject_question_node)
 

@@ -8,13 +8,17 @@ alembic==1.12.1
 psycopg2-binary==2.9.9  # PostgreSQL
 redis==5.0.1
 
-# AI/ML
-langchain==0.0.350
-langgraph==0.0.68
-groq==0.4.1
+# AI/ML - Compatible versions
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.16
+langgraph==0.1.19
+groq>=0.4.1
+langchain-groq>=0.1.5
 
-# Utilities
-pydantic==2.5.0
+# Enhanced requirements - Compatible versions
+pydantic==2.8.2
+pydantic-settings==2.4.0
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-dotenv==1.0.0

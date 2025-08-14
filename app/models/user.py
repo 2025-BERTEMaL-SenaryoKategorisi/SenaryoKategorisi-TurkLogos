@@ -51,5 +51,5 @@ class User(BaseModel):
     bills = relationship("Bill", back_populates="user")
     support_tickets = relationship("SupportTicket", back_populates="user")
     package_changes = relationship("PackageChange", back_populates="user")
-    conversations = relationship("Conversation", back_populates="user")
+    # conversations = relationship("Conversation", back_populates="user")  # Commented out due to String ID issue
     technician_visits = relationship("TechnicianVisit", back_populates="user")

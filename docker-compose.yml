@@ -21,6 +21,46 @@ services:
     volumes:
       - redis_data:/data
 
+  ollama:
+    image: ollama/ollama:latest
+    restart: always
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    pull_policy: always
+
+  api:
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+      - ollama
+    environment:
+      - DATABASE_URL=postgresql://postgres:4Lt0g@db:5432/turklogos_db
+      - REDIS_URL=redis://redis:6379
+      - LLM_PROVIDER=groq
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=llama3.1:8b
+      - GROQ_MODEL=llama3-8b-8192
+    env_file:
+      - .env
+    volumes:
+      - ./static:/app/static
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/chat/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
 volumes:
   postgres_data:
   redis_data:
+  ollama:
+    external: true

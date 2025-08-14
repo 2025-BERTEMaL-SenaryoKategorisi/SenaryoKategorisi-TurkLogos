@@ -3,6 +3,7 @@ Main FastAPI application
 """
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 
 # Import routes
@@ -21,8 +22,8 @@ async def lifespan(app: FastAPI):
     # Startup
     logger.info("🚀 Starting TürkLogos Agent API...")
     
-    # Create database tables - drop and recreate for enhanced fields
-    Base.metadata.drop_all(bind=engine)  # Development only - drop existing tables
+    # Create database tables with fixed relationships
+    # Note: Tables already cleaned manually to avoid dependency conflicts
     Base.metadata.create_all(bind=engine)
     logger.info("📊 Database tables created with enhanced authentication fields")
     
@@ -54,6 +55,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Mount static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Include routers
 app.include_router(chat.router, prefix="/chat", tags=["Chat"])

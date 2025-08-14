@@ -34,7 +34,9 @@ TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini oto
 
 ## 🏗️ Sistem Mimarisi
 
-<img src="./images/architecture.jpeg" alt="Açıklama metni" width="300"/>
+<p align="center">
+  <img src="./images/architecture.jpeg" alt="Sistem Mimarisi" width="400"/>
+</p>
 
 ## 🤖 AI Agent Özellikleri
 

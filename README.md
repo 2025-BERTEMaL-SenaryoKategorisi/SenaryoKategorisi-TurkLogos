@@ -19,6 +19,14 @@ Hedef; daha hızlı, doğru ve erişilebilir bir çağrı merkezi deneyimi sunar
 
 ## 👥 Ekip Bilgisi
 
+| Fotoğraf | İsim | Ünvan | Sosyal Medya |
+|---|---|---|---|
+| ![Emre ŞATIR](./images/emre_satir.jpeg) | Emre ŞATIR | Danışman |  |
+| ![Erdem Altuğ MALKAN](./images/erdem_malkan.jpeg) | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/)) |
+| ![Dilan Elif BAŞBOĞA](./images/dilan_basboga.jpeg) | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/)) |
+| ![Ahmet Anıl UÇAN](./images/ahmet_ucan.jpeg) | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](link) <br> [LinkedIn](link) |
+
+
 **Danışman:**  
 **Emre ŞATIR** — Dr. Öğr. Üyesi, İzmir Kâtip Çelebi Üniversitesi, Bilgisayar Mühendisliği Bölümü.  
 Uzmanlık: Yapay Zeka, Makine Öğrenmesi, Doğal Dil İşleme, Makine Çevirisi.  

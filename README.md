@@ -22,9 +22,9 @@ Hedef; daha hızlı, doğru ve erişilebilir bir çağrı merkezi deneyimi sunar
 | Fotoğraf | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
 | <img src="./images/emre_satir.jpeg" width="100"/> | Emre ŞATIR | Danışman |  |
-| <img src="./images/erdem_malkan.jpeg" width="100"/> | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](link) <br> [LinkedIn](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/) |
-| <img src="./images/dilan_basboga.jpeg" width="100"/> | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](link) <br> [LinkedIn](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/) |
-| <img src="./images/ahmet_ucan.jpeg" width="100"/> | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](link) <br> [LinkedIn](link) |
+| <img src="./images/erdem_malkan.jpeg" width="100"/> | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub]([link](https://github.com/altugmalkan/altugmalkan)) <br> [LinkedIn](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/) |
+| <img src="./images/dilan_basboga.jpeg" width="100"/> | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub]([link](https://github.com/elifbasboga)) <br> [LinkedIn](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/) |
+| <img src="./images/ahmet_ucan.jpeg" width="100"/> | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub]([link](https://github.com/Anilf8)) <br> [LinkedIn]([link](https://www.linkedin.com/in/anıl-uçan-785336331/)) |
 
 
 **Danışman:**  

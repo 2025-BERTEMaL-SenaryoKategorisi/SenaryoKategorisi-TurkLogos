@@ -8,14 +8,13 @@ Bu proje, TEKNOFEST 2025 **#BilisimVadisi2025** etkinliği kapsamında geliştir
 
 ## 👥 Ekip Bilgisi
 
-**TürkLogos Team** - **#BilisimVadisi2025** Katılımcısı
-
 | Fotoğraf | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
-| <img src="./demo-elif-frontend/public/images/emre_satir.jpeg" width="100"/> | Emre ŞATIR | Danışman |  |
-| <img src="./demo-elif-frontend/public/images/erdem_malkan.jpeg" width="100"/> | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](https://github.com/altugmalkan) <br> [LinkedIn](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/) |
-| <img src="./demo-elif-frontend/public/images/dilan_basboga.jpeg" width="100"/> | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](https://github.com/elifbasboga) <br> [LinkedIn](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/) |
-| <img src="./demo-elif-frontend/public/images/ahmet_ucan.jpeg" width="100"/> | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](https://github.com/Anilf8) <br> [LinkedIn](https://www.linkedin.com/in/anıl-uçan-785336331/) |
+| <img src="./images/emre_satir.jpeg" width="100"/> | Emre ŞATIR | Danışman |  |
+| <img src="./images/erdem_malkan.jpeg" width="100"/> | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](https://github.com/altugmalkan) <br> [LinkedIn](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/) |
+| <img src="./images/dilan_basboga.jpeg" width="100"/> | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](https://github.com/elifbasboga) <br> [LinkedIn](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/) |
+| <img src="./images/ahmet_ucan.jpeg" width="100"/> | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](https://github.com/Anilf8) <br> [LinkedIn](https://www.linkedin.com/in/anıl-uçan-785336331/) |
+
 
 ## 🚀 Proje Genel Bakış
 
@@ -92,18 +91,6 @@ TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini oto
 - **Prometheus**: Monitoring (planned)
 - **WebSockets**: Real-time communication
 
-## 📊 Database Schema
-
-```sql
--- Ana Tablolar
-Users                    # Müşteri bilgileri
-Packages                 # Tarife paketleri
-Bills                    # Fatura kayıtları
-SupportTickets          # Destek talepleri
-TechnicianVisits        # Teknisyen randevuları
-Conversations           # Chat geçmişi
-AgentMetrics            # Ajan performans metrikleri
-```
 
 ## 🚀 Kurulum ve Çalıştırma
 
@@ -257,31 +244,6 @@ const AGENT_API_URL = 'http://localhost:8000'; // AI Agent
 // Ollama Configuration
 const OLLAMA_BASE_URL = 'http://localhost:11434';
 const OLLAMA_MODEL = 'llama3.1:8b';
-```
-
-## 🎯 Kullanım Senaryoları
-
-### **1. Müşteri Fatura Sorgulama**
-```
-Kullanıcı: "Merhaba, son faturamı öğrenmek istiyorum"
-Ajan: "Tabii ki! Kimlik doğrulama için telefon numaranızı paylaşabilir misiniz?"
-Kullanıcı: "555 123 45 67"
-Ajan: "TC kimlik numaranızın son 4 hanesini söyleyebilir misiniz?"
-[Doğrulama sonrası fatura bilgileri sunulur]
-```
-
-### **2. Paket Değişikliği**
-```
-Kullanıcı: "İnternetim çok yavaş, paketimi değiştirmek istiyorum"
-Ajan: "Anlıyorum. Mevcut paketiniz X GB, size daha uygun Y paketi önerebilirim."
-[Paket önerileri ve değişiklik işlemi]
-```
-
-### **3. Teknik Destek**
-```
-Kullanıcı: "İnternetim hiç çekmiyor, teknisyen gelsin"
-Ajan: "Üzgünüm. Hemen teknisyen randevusu ayarlayalım. Uygun gün ve saat?"
-[Randevu sistemi entegrasyonu]
 ```
 
 ## 🛡️ Güvenlik

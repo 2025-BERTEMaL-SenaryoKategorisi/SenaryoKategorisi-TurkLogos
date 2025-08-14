@@ -1,6 +1,6 @@
 # TürkLogos Telecom AI Agent - TEKNOFEST 2025
 
-![TürkLogos Logo](./demo-elif-frontend/public/logo.png)
+![TürkLogos Logo](./images/logo.png)
 
 **#BilisimVadisi2025** | **Ekip: BERTeMaL** | **@AcikKaynakPlatformu**
 
@@ -32,13 +32,7 @@ TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini oto
 
 ## 🏗️ Sistem Mimarisi
 
-
-
-
-
-
-
-
+![Açıklama metni](./images/architecture.jpeg)
 
 ## 🤖 AI Agent Özellikleri
 

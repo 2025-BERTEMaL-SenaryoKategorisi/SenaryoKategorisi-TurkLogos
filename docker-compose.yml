@@ -1,0 +1,57 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  # PostgreSQL with pgvector extension
+  postgres-vectordb:
+    image: pgvector/pgvector:pg16
+    container_name: telecom_vectordb
+    environment:
+      POSTGRES_DB: telecom_vectordb
+      POSTGRES_USER: telecom_user
+      POSTGRES_PASSWORD: 4Lt0g
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U telecom_user -d telecom_vectordb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for conversation memory
+  redis:
+    image: redis:7-alpine
+    container_name: telecom_agent_redis
+    ports:
+      - "6380:6380"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: Redis Commander (Redis GUI)
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: redis-commander
+    hostname: redis-commander
+    ports:
+      - "8081:8081"
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    depends_on:
+      - redis
+    profiles: ["tools"]  # Only start with --profile tools
+
+volumes:
+  postgres_data:
+  redis_data:

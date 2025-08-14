@@ -1,0 +1,97 @@
+[
+  {
+    "package_id": "PKG-100",
+    "name": "GigaPlus 10",
+    "data_gb": 10,
+    "minutes": 750,
+    "price": 299,
+    "is_corporate": false,
+    "features": {
+      "sms": 1000,
+      "speed_cap_mbps": 150
+    }
+  },
+  {
+    "package_id": "PKG-200",
+    "name": "GigaPlus 20",
+    "data_gb": 20,
+    "minutes": 1000,
+    "price": 399,
+    "is_corporate": false,
+    "features": {
+      "sms": 2000,
+      "speed_cap_mbps": 200
+    }
+  },
+  {
+    "package_id": "PKG-300",
+    "name": "Sınırsız Gece",
+    "data_gb": 15,
+    "minutes": 750,
+    "price": 349,
+    "is_corporate": false,
+    "features": {
+      "night_unlimited": "23:00-07:00",
+      "sms": 1500
+    }
+  },
+  {
+    "package_id": "PKG-400",
+    "name": "Genç 12",
+    "data_gb": 12,
+    "minutes": 500,
+    "price": 199,
+    "is_corporate": false,
+    "features": {
+      "age_rule": "<=26",
+      "social_bonus_gb": 10
+    }
+  },
+  {
+    "package_id": "PKG-500",
+    "name": "Kurumsal XS",
+    "data_gb": 25,
+    "minutes": 1500,
+    "price": 349,
+    "is_corporate": true,
+    "features": {
+      "static_ip": false,
+      "priority_support": false
+    }
+  },
+  {
+    "package_id": "PKG-600",
+    "name": "Kurumsal L",
+    "data_gb": 50,
+    "minutes": 3000,
+    "price": 599,
+    "is_corporate": true,
+    "features": {
+      "static_ip": true,
+      "priority_support": true
+    }
+  },
+  {
+    "package_id": "PKG-700",
+    "name": "Aile Paylaşımlı 100",
+    "data_gb": 100,
+    "minutes": 5000,
+    "price": 899,
+    "is_corporate": false,
+    "features": {
+      "shared_data": true,
+      "max_lines": 5
+    }
+  },
+  {
+    "package_id": "PKG-800",
+    "name": "Faturasız 8",
+    "data_gb": 8,
+    "minutes": 250,
+    "price": 149,
+    "is_corporate": false,
+    "features": {
+      "prepaid": true
+    }
+  }
+]

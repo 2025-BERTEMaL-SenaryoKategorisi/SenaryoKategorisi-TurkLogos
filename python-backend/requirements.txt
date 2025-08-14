@@ -1,0 +1,8 @@
+# Whisper STT Server Requirements
+openai-whisper>=20231117
+flask>=2.3.0
+flask-cors>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+ffmpeg-python>=0.2.0

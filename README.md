@@ -1,4 +1,4 @@
-# BERTeMal — Üretken Yapay Zeka Destekli Otonom Çağrı Merkezi Senaryoları
+# BERTeMaL — Üretken Yapay Zeka Destekli Otonom Çağrı Merkezi Senaryoları
 
 Bu proje, çağrı merkezlerindeki müşteri etkileşimlerini otomatik olarak anlayan, analiz eden ve yanıtlayan **yapay zeka tabanlı bir ajan sistemi** geliştirmeyi amaçlamaktadır. Sistem; konuşmaları metne çevirme (ASR), niyet ve bilgi çıkarımı (NLU), doğal yanıt üretme (NLG), fonksiyon çağırma (Function Calling) ve ses sentezleme (TTS) bileşenlerinden oluşur.  
 Hedef; daha hızlı, doğru ve erişilebilir bir çağrı merkezi deneyimi sunarak hem **kurumsal verimlilik** hem de **toplumsal fayda** sağlamaktır.

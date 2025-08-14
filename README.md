@@ -21,11 +21,10 @@ Hedef; daha hızlı, doğru ve erişilebilir bir çağrı merkezi deneyimi sunar
 
 | Fotoğraf | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
-| ![Emre ŞATIR](./images/emre_satir.jpeg) | Emre ŞATIR | Danışman |  |
-| ![Erdem Altuğ MALKAN](./images/erdem_malkan.jpeg) | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/)) |
-| ![Dilan Elif BAŞBOĞA](./images/dilan_basboga.jpeg) | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/)) |
-| ![Ahmet Anıl UÇAN](./images/ahmet_ucan.jpeg) | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](link) <br> [LinkedIn](link) |
-
+| ![Emre ŞATIR](<img src="./images/emre_satir.jpeg" width="100" />) | Emre ŞATIR | Danışman |  |
+| ![Erdem Altuğ MALKAN](<img src="./images/erdem_malkan.jpeg" width="100" />) | Erdem Altuğ MALKAN | Takım Kaptanı | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/altuğ-malkan-80b8a4284/)) |
+| ![Dilan Elif BAŞBOĞA](<img src="./images/dilan_basboga.jpeg" width="100" />) | Dilan Elif BAŞBOĞA | Takım Üyesi | [GitHub](link) <br> [LinkedIn]([link](https://www.linkedin.com/in/dilan-elif-başboğa-573091276/)) |
+| ![Ahmet Anıl UÇAN](<img src="./images/ahmet_ucan.jpeg" width="100" />) | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](link) <br> [LinkedIn](link) |
 
 **Danışman:**  
 **Emre ŞATIR** — Dr. Öğr. Üyesi, İzmir Kâtip Çelebi Üniversitesi, Bilgisayar Mühendisliği Bölümü.  

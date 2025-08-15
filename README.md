@@ -1,4 +1,4 @@
-# TürkLogos Telecom AI Agent - TEKNOFEST 2025
+# TürkLogos telekom AI Agent - TEKNOFEST 2025
 
 <p align="center">
   <img src="./images/logo.png" alt="TürkLogos Logo"/>
@@ -6,9 +6,9 @@
 
 **#BilisimVadisi2025** | **Ekip: BERTeMaL** | **@AcikKaynakPlatformu**
 
-Bu proje, TEKNOFEST 2025 **#BilisimVadisi2025** etkinliği kapsamında geliştirilmiş, otonom telecom müşteri hizmetleri ajanı sistemidir. **Apache License 2.0** ile lisanslanmış açık kaynaklı bir projedir.
+Bu proje, TEKNOFEST 2025 **#BilisimVadisi2025** etkinliği kapsamında geliştirilmiş, otonom telekom müşteri hizmetleri ajanı sistemidir.
 
-## 👥 Ekip Bilgisi
+## Ekip Bilgisi
 
 | Fotoğraf | İsim | Ünvan | Sosyal Medya |
 |---|---|---|---|
@@ -18,27 +18,27 @@ Bu proje, TEKNOFEST 2025 **#BilisimVadisi2025** etkinliği kapsamında geliştir
 | <img src="./images/ahmet_ucan.jpeg" width="100"/> | Ahmet Anıl UÇAN | Takım Üyesi | [GitHub](https://github.com/Anilf8) <br> [LinkedIn](https://www.linkedin.com/in/anıl-uçan-785336331/) |
 
 
-## 🚀 Proje Genel Bakış
+## Proje Genel Bakış
 TürkLogos Projesi, kurumların ve işletmelerin müşteri iletişiminde yaşadığı uzun bekleme süreleri, insan hatası riski ve yüksek operasyon maliyetleri gibi temel sorunlara çözüm üretmeyi amaçlayan yapay zekâ destekli bir sistemdir.
 Proje, konuşmaları otomatik olarak anlayan, analiz eden ve yanıtlayan bir altyapı geliştirir. Bu sayede müşteri temsilcilerine bağımlılık azalır, işlem süreleri kısalır ve hatalı bilgi aktarımı en aza iner.
 Ayrıca erişilebilirlik ilkesi gözetilerek geliştirilen sistem, toplumun tüm kesimleri için daha kapsayıcı ve eşit bir iletişim deneyimi sunar.
 
-### 🎯 Ana Özellikler
+### Ana Özellikler
 
-- **🤖 Otonom AI Agent**: LangChain tabanlı akıllı müşteri hizmetleri ajanı
-- **🎤 Ses Tanıma**: OpenAI Whisper ile Türkçe STT (Speech-to-Text)
-- **💬 Çok Kanallı İletişim**: Ses ve metin tabanlı etkileşim
-- **📊 Gerçek Zamanlı Analytics**: Performans izleme ve raporlama
-- **📱 Modern Frontend**: React TypeScript ile responsive arayüz
-- **🐳 Containerized**: Docker ile kolay dağıtım
+- **Otonom AI Agent**: LangChain tabanlı akıllı müşteri hizmetleri ajanı
+- **Ses Tanıma**: OpenAI Whisper ile Türkçe STT (Speech-to-Text)
+- **Çok Kanallı İletişim**: Ses ve metin tabanlı etkileşim
+- **Gerçek Zamanlı Analytics**: Performans izleme ve raporlama
+- **Modern Frontend**: React TypeScript ile responsive arayüz
+- **Containerized**: Docker ile kolay dağıtım
 
-## 🏗️ Sistem Mimarisi
+## Sistem Mimarisi
 
 <p align="center">
   <img src="./images/architecture.jpeg" alt="Sistem Mimarisi" width="400"/>
 </p>
 
-## 🤖 AI Agent Özellikleri
+## AI Agent Özellikleri
 
 ### **LangChain Tabanlı Ajan**
 - **ReAct Pattern**: Reasoning + Acting yaklaşımı
@@ -95,10 +95,11 @@ Ayrıca erişilebilirlik ilkesi gözetilerek geliştirilen sistem, toplumun tüm
 - function_calling()             # Harici API fonksiyon çağrısı
 ```
 
-## 🛠️ Teknoloji Stack
+## Teknoloji Stack
 
 ### **Backend (AI Agent)**
 - **FastAPI**: Modern Python web framework
+- **JavaScript**: Frontend ve backend arasında dinamik etkileşim, kullanıcı arayüzünde interaktif özellikler sağlama
 - **LangChain + LangGraph**: AI agent ve LLM orchestration
 - **Ollama**: Local LLM inference ve model yönetimi
 - **SQLAlchemy**: ORM ve database yönetimi
@@ -121,7 +122,7 @@ Ayrıca erişilebilirlik ilkesi gözetilerek geliştirilen sistem, toplumun tüm
 - **WebSockets**: Real-time communication
 
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### **Ön Gereksinimler**
 ```bash
@@ -200,7 +201,7 @@ npm install
 npm run dev  # Port 8081
 ```
 
-## 🧪 API Testing
+## API Testing
 
 ### **AI Agent Endpoints**
 ```bash
@@ -231,16 +232,11 @@ curl http://localhost:5001/health
 # http://localhost:8081 - Development server (Manuel)
 ```
 
-## 📊 Monitoring & Analytics
 
-- **Agent Performance**: Response time, accuracy metrics
-- **User Interactions**: Conversation analytics
-- **System Health**: API uptime, database performance
-- **Business Metrics**: Customer satisfaction, resolution rates
 
-## 🔧 Konfigürasyon
+## Konfigürasyon
 
-### **AI Agent Settings (.env)**
+### **AI Agent Ayarları (.env)**
 ```bash
 # Database
 DATABASE_URL=postgresql://postgres:4Lt0g@localhost:5433/turklogos_db
@@ -264,7 +260,7 @@ DEMO_DATA_ENABLED=true
 COLLECT_METRICS=true
 ```
 
-### **Frontend Settings**
+### **Frontend Ayarları**
 ```typescript
 // API endpoints (src/lib/whisper-stt.ts)
 const API_BASE_URL = 'http://localhost:5001';  // Whisper STT
@@ -275,7 +271,7 @@ const OLLAMA_BASE_URL = 'http://localhost:11434';
 const OLLAMA_MODEL = 'llama3.1:8b';
 ```
 
-## 🛡️ Güvenlik
+## Güvenlik
 
 - **JWT Authentication**: Secure API access
 - **Data Privacy**: GDPR compliant data handling
@@ -283,39 +279,13 @@ const OLLAMA_MODEL = 'llama3.1:8b';
 - **Rate Limiting**: API abuse protection
 - **Audit Logging**: Complete conversation tracking
 
-## 📜 Lisans
 
-Bu proje **Apache License 2.0** ile lisanslanmıştır.
 
-```
-Copyright 2025 TürkLogos Team
+## Etiketler
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+**#BilisimVadisi2025** | **#TürkLogos** | **#AcikKaynakPlatformu** | **#TEKNOFEST2025** | **#AIAgent** | **#LangChain** | **#telecomAI** | **#VoiceBot** | **#CustomerService**
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-## 🤝 Katkıda Bulunma
-
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit edin (`git commit -m 'Add amazing feature'`)
-4. Push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 🏷️ Etiketler
-
-**#BilisimVadisi2025** | **#TürkLogos** | **#AcikKaynakPlatformu** | **#TEKNOFEST2025** | **#AIAgent** | **#LangChain** | **#TelecomAI** | **#VoiceBot** | **#CustomerService**
-
-## 📞 İletişim
+## İletişim
 
 - **GitHub Issues**: [Sorun bildirin](https://github.com/2025-BERTEMaL-SenaryoKategorisi/SenaryoKategorisi-TurkLogos/issues)
 - **Email**: 20bertemal24@gmail.com

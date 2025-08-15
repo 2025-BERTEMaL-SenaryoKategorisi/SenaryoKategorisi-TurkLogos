@@ -1,0 +1,299 @@
+{
+  "telekomünikasyon_sss": [
+    {
+      "soru": "Ayrıntılı fatura detayı için ne kadar ücret öderim?",
+      "cevap": "Ayrıntılı fatura detayı ücretsizdir. Online hesabınızdan, mobil uygulamamızdan veya müşteri hizmetlerimizden 444 1 444 numarasını arayarak detaylı fatura bilgilerinizi görüntüleyebilirsiniz. Kağıt fatura tercih ederseniz ayrıntılı fatura için 2 TL ücret alınmaktadır."
+    },
+    {
+      "soru": "Dakika & SMS & İnternet Kalan Miktarımı Nasıl Öğrenirim?",
+      "cevap": "Kalan kullanımlarınızı öğrenmek için: *264# tuşlayarak ücretsiz sorgulayabilir, Online hesabınızdan kontrol edebilir, Mobil uygulamamızdan anlık olarak takip edebilir veya 444 1 444 müşteri hizmetlerini arayabilirsiniz."
+    },
+    {
+      "soru": "Güncel Fatura Tutarımı Nasıl Öğrenebilirim?",
+      "cevap": "Fatura tutarınızı öğrenmek için kimlik doğrulaması yapmanız gerekmektedir. Lütfen T.C. kimlik numaranızı, telefon numaranızı ve müşteri numaranızı hazır bulundurun. Bu bilgileri doğruladıktan sonra güncel fatura tutarınızı size iletebiliriz. Güvenlik nedeniyle bu bilgiler olmadan fatura tutarı verilemez. Müşteri hizmetlerimiz 444 1 444 numarasından 7/24 hizmetinizdeyiz."
+    },
+    {
+      "soru": "Hat Devir İşlemi nedir nasıl çalışır?",
+      "cevap": "Hat devri, hattın sahipliğinin başka bir kişiye devredilmesi işlemidir. Her iki taraf da nüfus cüzdanı ile bayiimize gelerek devir sözleşmesi imzalamalıdır. İşlem ücreti 50 TL'dir. Borç varsa önce kapatılmalı, taahhüt devralana geçer. İşlem 1-2 iş günü sürer."
+    },
+    {
+      "soru": "Hattım fatura borcu nedeniyle kapanırsa ne kadar ücret öderim?",
+      "cevap": "Hat kapatma ve yeniden açma işlemi için toplam 85 TL ücret alınmaktadır (kapatma 35 TL, açma 50 TL). Ayrıca birikmiş borç tutarı ve gecikme faizi de ödenmesi gerekmektedir. Borcun erken ödenmesi için taksitlendirme seçeneklerimiz mevcuttur."
+    },
+    {
+      "soru": "Hattımı iptal ettirmek için ne yapmam gerekiyor?",
+      "cevap": "Hat iptal işlemi için nüfus cüzdanızla bayiimize gelmeniz, Online hesabınızdan iptal talebinde bulunmanız veya 444 1 444'ü arayarak müşteri temsilcimizden yardım alabilirsiniz. Taahhüt varsa ceza ücreti, borç varsa ödenmesi gerekmektedir. İptal işlemi sonraki fatura döneminde geçerli olur."
+    },
+    {
+      "soru": "Mobil Telefon Numaramı nasıl değiştirebilirim?",
+      "cevap": "Numara değişikliği için bayiimize nüfus cüzdanızla gelmeniz gerekmektedir. İşlem ücreti 100 TL'dir. Yeni numaranızı mevcut seçenekler arasından seçebilir veya özel numara talep edebilirsiniz (ek ücret karşılığında). İşlem anında gerçekleşir ve yeni SIM kart verilir."
+    },
+    {
+      "soru": "Faturalı Uluslararası Arama ve Standart Ücretleri",
+      "cevap": "Uluslararası arama ücretleri ülkelere göre değişmektedir: Avrupa ülkeleri: dakikası 2,5-4 TL, ABD-Kanada: dakikası 2,8 TL, Asya ülkeleri: dakikası 3,5-6 TL, Afrika ülkeleri: dakikası 4,5-8 TL. Detaylı ücret listesi için web sitemizi ziyaret edebilirsiniz. Uluslararası arama paketleri daha avantajlı fiyatlarla sunulmaktadır."
+    },
+    {
+      "soru": "TL Yükleme Kanalları nelerdir?",
+      "cevap": "TL yükleme kanallarımız: Yetkili bayiler, ATM'ler, İnternet bankacılığı, Mobil uygulamamız, *123# kodu ile kredi kartı, Yükleme kartları, Otomatik ödeme talimatı, Banka şubeleri ve PTT şubeleridir. Tüm kanallarımızda güvenli ödeme altyapısı mevcuttur."
+    },
+    {
+      "soru": "Otomatik Yükleme Talimatı",
+      "cevap": "Otomatik yükleme talimatı için kredi kartınızı veya banka hesabınızı tanımlayabilirsiniz. Bakiyeniz belirlediğiniz minimum tutarın altına düştüğünde otomatik olarak istediğiniz tutarda yükleme yapılır. Online hesabınızdan veya 444 1 444'ü arayarak talimat verebilir, istediğiniz zaman iptal edebilirsiniz."
+    },
+    {
+      "soru": "Faturasız Uluslararası Arama ve Standart Ücretleri",
+      "cevap": "Faturasız hatlarda uluslararası arama ücretleri: Avrupa: dakikası 3-4,5 TL, ABD-Kanada: dakikası 3,2 TL, Asya: dakikası 4-7 TL, Afrika: dakikası 5-9 TL. Uluslararası arama özelliğini aktif etmek için 444 1 444'ü arayın. Özel uluslararası paketlerimizle daha uygun fiyatlara sahip olabilirsiniz."
+    },
+    {
+      "soru": "Tarife değişikliği yaptığımda nasıl ücretlendirilirim?",
+      "cevap": "Tarife değişikliği ücretsizdir ve bir sonraki fatura döneminden itibaren geçerli olur. Eğer daha pahalı bir tarifeye geçiyorsanız hemen aktif olur, daha ucuz tarifeye geçişte ise sonraki fatura dönemi beklenir. Güncel tarifeye oranla fark varsa kesinti veya iadesi fatura döneminde hesaplanır."
+    },
+    {
+      "soru": "Kullandığım hattın yasal sahibi vefat etti; hattı üzerime nasıl alabilirim?",
+      "cevap": "Vefat durumunda hat devri için: Vefat belgesi, Miras belgeleri (veraset ilamı veya miras sözleşmesi), Nüfus cüzdanınız ve mirasçı olduğunuzu gösteren belgeler ile bayimize başvurmanız gerekmektedir. İşlem ücretsizdir. Süreç 3-5 iş günü sürebilir. Hukuki danışmanlık için avukatımızla görüşebilirsiniz."
+    },
+    {
+      "soru": "Sabit ücret neden alınıyor?",
+      "cevap": "Sabit ücret, hatın aktif tutulması, şebeke altyapısı, müşteri hizmetleri ve teknik destek hizmetleri için alınan aylık temel ücrettir. Bu ücret kullanım olsun olmasın her ay tahakkuk eder. Sabit ücret tutarı tarifeye göre değişmektedir ve fatura döneminin başında tahakkuk eder."
+    },
+    {
+      "soru": "E-faturam neden ulaşmıyor?",
+      "cevap": "E-fatura ulaşmamasının nedenleri: E-posta adresindeki değişiklik, Spam klasörüne düşme, E-posta kutusunun dolu olması, E-fatura adresinin güncel olmaması olabilir. Online hesabınızdan e-posta adresini güncelleyebilir, spam ayarlarını kontrol edebilir veya 444 1 444'ü arayarak teknik destek alabilirsiniz."
+    },
+    {
+      "soru": "KDV, ÖİV neden alınmaktadır?",
+      "cevap": "KDV (Katma Değer Vergisi) %18 oranında, ÖİV (Özel İletişim Vergisi) %25 oranında yasal zorunluluk gereği alınmaktadır. Bu vergiler devlet tarafından belirlenen yasal yükümlülüklerdir ve tüm telekom hizmetlerinde uygulanır. Vergiler fatura tutarının üzerine eklenir ve Maliye Bakanlığı'na aktarılır."
+    },
+    {
+      "soru": "Telefonumu devretmek için ne yapmam gerekiyor?",
+      "cevap": "Telefon devir işlemi için her iki taraf da (devreden ve devralan) nüfus cüzdanları ile birlikte bayimize gelmelidir. Devir ücreti 50 TL'dir. Hatta borç varsa kapatılması, taahhüt varsa devralana geçmesi gerekmektedir. İşlem tamamlandıktan sonra yeni sahibinin bilgileri sisteme kaydedilir."
+    },
+    {
+      "soru": "Telefonumun arayan numaraları göstermesini nasıl sağlayabilirim?",
+      "cevap": "Arayan numara gösterimi (Caller ID) özelliği için 444 1 444'ü arayarak talep edebilirsiniz. Aylık ücreti 5 TL'dir. Özellik aktif edildikten sonra size gelen aramalarda arayan numara ekranda görünür. İstediğiniz zaman iptal edebilir veya tekrar aktif hale getirebilirsiniz."
+    },
+    {
+      "soru": "Hangi durumlarda hangi ISDN PA, hangi durumlarda ISDN BA uygundur?",
+      "cevap": "ISDN PA (Point-to-Multipoint): Küçük işletmeler, şubeli yapılar için uygundur, 2-8 dahili hat desteği sağlar. ISDN BA (Point-to-Point): Büyük kurumlar, yoğun arama trafiği olan işletmeler için uygundur, 30 kata kadar dahili hat desteği sağlar. Seçim işletmenizin büyüklüğü ve arama yoğunluğuna göre yapılmalıdır."
+    },
+    {
+      "soru": "Turk Telekom Ev Telefonu Online İşlemler'i kullanarak hangi işlemleri gerçekleştirebilirim?",
+      "cevap": "Online ev telefonu işlemleri: Fatura görüntüleme ve ödeme, Arama detaylarını inceleme, Tarife değişikliği, Hizmet aktif/pasif etme, Numara değiştirme talebi, Adres değişikliği, E-fatura işlemleri, Otomatik ödeme talimatı verme ve Müşteri bilgilerini güncelleme işlemlerini 7/24 güvenle gerçekleştirebilirsiniz."
+    },
+    {
+      "soru": "Türk Telekom faturalarımı nereden ödeyebilirim?",
+      "cevap": "Fatura ödeme kanallarımız: Türk Telekom bayileri, Bankalar ve ATM'ler, İnternet bankacılığı, Mobil bankacılık, PTT şubeleri, Online hesabınız, Mobil uygulamamız, Otomatik ödeme talimatı, Kredi kartı ile ödeme ve Tahsilat şirketleri. Tüm kanallarımızda güvenli ödeme altyapısı mevcuttur."
+    },
+    {
+      "soru": "Türk Telekom hisseleri hangi borsalarda işlem görmektedir ve hisse sembolü nedir?",
+      "cevap": "Türk Telekom hisseleri Borsa İstanbul'da (BIST) 'TTKOM' sembolü ile işlem görmektedir. Ayrıca Londra Borsası'nda da GDR (Global Depository Receipt) olarak işlem görmektedir. Güncel hisse fiyatları ve yatırımcı ilişkileri bilgileri için www.turktelekom.com.tr/yatirimci-iliskileri sayfasını ziyaret edebilirsiniz."
+    },
+    {
+      "soru": "Kullanım kolaylıkları ne demektir?",
+      "cevap": "Kullanım kolaylıkları, özel ihtiyaçları olan müşterilerimiz için sunduğumuz hizmetlerdir: Görme engelliler için sesli menü, İşitme engelliler için metin mesajı hizmeti, Yaşlılar için büyük tuşlu telefonlar, Basit kullanım için özelleştirilmiş arayüzler ve Engelli müşterilerimiz için özel müşteri hizmetleri hattı. Bu hizmetler ücretsiz sunulmaktadır."
+    },
+    {
+      "soru": "Özel numaraların özellikleri nelerdir?",
+      "cevap": "Özel numaraların özellikleri: Kolay hatırlanan rakam dizilimi (111, 123, 777 gibi), Prestij sağlama, İş hayatında avantaj, Kişisel veya kurumsal imaj, Ek ücret karşılığında sunulur. Özel numara ücreti seçtiğiniz numaranın özelliğine göre 500-5000 TL arasında değişmektedir. Başvuru için bayilerimize başvurabilirsiniz."
+    },
+    {
+      "soru": "Aile kart nedir?",
+      "cevap": "Aile Kart, aynı adres üzerindeki aile bireylerinin hatlarını tek faturada toplayan ve grup avantajları sunan hizmettir. Avantajları: Aile içi aramalar ücretsiz, Toplu fatura, Ortak internet paketi, Grup indirimleri, Tek müşteri temsilcisi. En az 2, en fazla 5 hat bağlanabilir. Aylık yönetim ücreti 10 TL'dir."
+    },
+    {
+      "soru": "TT Kart nedir?",
+      "cevap": "TT Kart, Türk Telekom müşterilerine özel avantajlar sunan sadakat kartıdır. Avantajları: Fatura ödemelerinden puan kazanma, Partnerlerde indirimler, Özel kampanyalara erişim, Ücretsiz hizmetler, Doğum günü sürprizleri. Kart ücretsizdir ve online başvuru yapabilirsiniz. Puanlarınızı fatura indirimi veya hediye olarak kullanabilirsiniz."
+    },
+    {
+      "soru": "Ev avantaj tarifeleri nelerdir?",
+      "cevap": "Ev Avantaj tarifeleri: Ev Konfor (Temel paket - 45 TL), Ev Plus (Orta paket - 65 TL), Ev Premium (Full paket - 85 TL). Paketlerde şehir içi sınırsız konuşma, internet, dijital TV hizmetleri bulunmaktadır. Kombine paketlerde %20'ye varan indirimler mevcuttur. Detaylı bilgi için 444 1 444'ü arayabilirsiniz."
+    },
+    {
+      "soru": "11811 kayıtlarında ismimin yer almamasını istiyorum, nereye başvurmam gerekiyor?",
+      "cevap": "11811 rehber hizmetinden çıkarılma talebi için: 444 1 444 müşteri hizmetlerini arayabilir, Online hesabınızdan talep oluşturabilir veya Bayilerimize başvurabilirsiniz. İşlem ücretsizdir ve talep tarihinden itibaren 3 iş günü içerisinde uygulanır. İstediğiniz zaman tekrar rehbere dahil olabilirsiniz."
+    },
+    {
+      "soru": "Ev telefonu numaramın kendi isim ve ünvanım ile birlikte bir başka isim/ünvan altında da 11811 kayıtlarında yer almasını istiyorum, ücret ödemem gerekiyor mu?",
+      "cevap": "Ek isim/ünvan kaydı için aylık 8 TL ücret alınmaktadır. Hattınız aynı numarayla birden fazla isim altında rehberde görünecektir. Bu hizmet ev işletmeleri, muayenehane, büro gibi kullanımlar için uygundur. Talep için kimlik belgelerinizle bayimize başvurmanız veya 444 1 444'ü aramanız yeterlidir."
+    },
+    {
+      "soru": "Bina içi tesisatı standardı nereden temin edilebilir?",
+      "cevap": "Bina içi tesisat standartları TSE (Türk Standartları Enstitüsü) tarafından belirlenmektedir. TS 1975 standardı ev içi telefon tesisatı için geçerlidir. Standart dokümanlarını TSE'den, yetkili elektrikçilerden veya teknik destek ekibimizden 444 1 444 numarasını arayarak temin edebilirsiniz. Tesisat işlemleri için lisanslı elektrikçi kullanmanız önemlidir."
+    },
+    {
+      "soru": "Nasıl hizmet sonlandırma talebinde bulunulur?",
+      "cevap": "Hizmet sonlandırma için: Kimliğinizle bayimize gelerek, Online hesabınızdan iptal talebi oluşturarak veya 444 1 444'ü arayarak müşteri temsilcimizden destek alarak talepte bulunabilirsiniz. Taahhüt varsa erken sonlandırma bedeli, borç varsa kapatılması gerekir. İptal işlemi sonraki fatura döneminde gerçekleşir."
+    },
+    {
+      "soru": "Telefonum bilinmeyen bir numara tarafından sürekli aranıyor ve rahatsız ediliyorum, numarayı tespit edip bana verebilir misiniz?",
+      "cevap": "Gizli numara tespiti hizmetimiz mevcuttur. 444 1 444'ü arayarak 'Rahatsız Edici Arama' başvurusu yapabilirsiniz. Güvenlik birimimiz inceleme yapar ve yasal süreç başlatılabilir. Acil durumlarda polise başvurmanızı, aramaya yanıt vermemenizi ve numarayı engellemenizi öneririz. Bu hizmet için kimlik kontrolü yapılmaktadır."
+    },
+    {
+      "soru": "Numaramı Nasıl Taşırım?",
+      "cevap": "Numara taşıma (MNP) için: Kimlik belgenizle yeni operatörün bayisine gidin, Numara taşıma talebinde bulunun, Eski operatörünüzden borç durumunuzu öğrenin, Gerekli belgeleri tamamlayın. İşlem 1 iş günü sürer. Taşıma sırasında 2-4 saat arası kesinti olabilir. Taahhüdünüz varsa erken sonlandırma bedeli ödemeniz gerekebilir."
+    },
+    {
+      "soru": "Numaramın taşınması ne kadar sürer?",
+      "cevap": "Numara taşıma işlemi yasal olarak en fazla 1 iş günü sürer. Başvuru günü saat 17:00'ye kadar yapılan talepler ertesi gün, sonrasındaki talepler 2. gün tamamlanır. Taşıma sırasında 2-4 saat geçici kesinti yaşanabilir. İşlem tamamlandığında SMS ile bilgilendirilirsiniz. Hafta sonları ve resmi tatillerde işlem yapılmaz."
+    },
+    {
+      "soru": "Numaramın taşınması için herhangi bir ücret alınır mı?",
+      "cevap": "Numara taşıma işlemi ücretsizdir. Ancak taahhütlü hattınız varsa ve taahhüt süreniz dolmamışsa, eski operatörünüze erken sonlandırma bedeli ödemeniz gerekebilir. Yeni operatörün başlangıç ücretleri (SIM kart, aktivasyon vb.) ayrıca alınabilir. Borç durumunuz varsa taşımadan önce kapatılması gerekir."
+    },
+    {
+      "soru": "Numaramı kaç defa taşıyabilirim?",
+      "cevap": "Numaranızı istediğiniz kadar taşıyabilirsiniz, yasal bir sınır yoktur. Ancak bir operatörde en az 30 gün kaldıktan sonra başka operatöre taşıyabilirsiniz. Sık taşıma durumunda operatörler ek inceleme yapabilir. Her taşımada taahhüt ve borç durumlarınız kontrol edilir. Taşıma geçmişiniz sistem kayıtlarında tutulmaktadır."
+    },
+    {
+      "soru": "Numaramı taşırken hattım kesilir mi?",
+      "cevap": "Numara taşıma sürecinde kısa süreli kesinti yaşanır. Bu süre genellikle 2-4 saat arasındadır. Taşıma işlemi tamamlanana kadar eski operatörünüzü kullanmaya devam edebilirsiniz. İşlem bittiğinde yeni operatörünüzün şebekesine geçersiniz. SMS ile taşıma tamamlandığı bilgisi gelir ve hattınız yeni operatörde aktif hale gelir."
+    },
+    {
+      "soru": "Numara taşıma talebi hangi durumlarda kabul edilmez?",
+      "cevap": "Numara taşıma talebi şu durumlarda reddedilir: Hatta borç bulunması, Kimlik bilgilerinin uyuşmaması, Hat sahibi olmayan kişinin başvurması, 30 günlük bekleme süresinin dolmaması, Hattın kapalı olması, Yasal engellemeler, Teknik aksaklıklar. Bu durumlar düzeltildikten sonra yeniden başvuru yapılabilir."
+    },
+    {
+      "soru": "Taahhüt ya da Borcum varsa numaramı taşıyabilir miyim?",
+      "cevap": "Borç varsa numara taşıyamazsınız, önce borcunuzu kapatmanız gerekir. Taahhüdünüz varsa taşıyabilirsiniz ancak kalan taahhüt tutarını erken sonlandırma bedeli olarak ödemeniz gerekir. Taahhüt cezası hesaplanarak size bildirilir. Ödeme yapıldıktan sonra taşıma işlemi başlatılabilir. Taksitli ödeme seçenekleri mevcuttur."
+    },
+    {
+      "soru": "Ev telefonumda borçtan hizmet kısıtlama neden yapılıyor? Hizmet kısıtlama işlemi ücretli midir?",
+      "cevap": "Fatura borcunun son ödeme tarihinden 15 gün sonra hizmet kısıtlama yapılır. Bu durumda sadece 112, 155, 156 gibi acil numaralar aranabilir. Kısıtlama işlemi 35 TL, açma işlemi 50 TL'dir. Borç ödendikten sonra hizmet 24 saat içinde açılır. Kısıtlamayı önlemek için otomatik ödeme talimatı verebilirsiniz."
+    },
+    {
+      "soru": "Son ödeme tarihleri neye göre belirlenmektedir?",
+      "cevap": "Son ödeme tarihi, fatura tarihinden itibaren 15 gün sonrasıdır. Hat açılış tarihinize göre fatura gününüz belirlenir ve her ay aynı tarihte fatura kesilir. Örneğin hat 5'inde açıldıysa her ay 5'inde fatura kesilir, 20'si son ödeme tarihi olur. Hafta sonları ve resmi tatillerde son ödeme tarihi ertesi iş gününe alınır."
+    },
+    {
+      "soru": "Faturamın son ödeme tarihi neden güncellendi?",
+      "cevap": "Son ödeme tarihi değişikliklerinin nedenleri: Resmi tatillerin son ödeme tarihine denk gelmesi, Sistem güncellemeleri, Fatura dönemindeki değişiklikler, Özel kampanyalar kapsamında ek süre tanınması olabilir. Değişiklik durumunda SMS veya e-posta ile bilgilendirilirsiniz. Güncel tarih için faturanızı kontrol edebilir veya 444 1 444'ü arayabilirsiniz."
+    },
+    {
+      "soru": "Son Ödeme tarihimden memnun değilim. Değiştirebilir miyim?",
+      "cevap": "Fatura gününüzü ve dolayısıyla son ödeme tarihini değiştirebilirsiniz. 444 1 444'ü arayarak müşteri temsilcimizden talep edebilirsiniz. Değişiklik bir sonraki fatura döneminden itibaren geçerli olur. Ay içinde istediğiniz bir tarihi (1-28 arası) fatura günü olarak seçebilirsiniz. Bu hizmet ücretsizdir ve yılda bir kez değiştirilebilir."
+    },{
+      "soru": "Yurtdışı aramalarında hangi ülke kaçıncı kademededir?",
+      "cevap": "Yurtdışı arama ücretleri 3 kademe halinde belirlenir: 1. Kademe (Avrupa ülkeleri, ABD, Kanada): Dakika başı 2.85 TL, 2. Kademe (Asya, Afrika, Güney Amerika): Dakika başı 4.20 TL, 3. Kademe (Okyanusya ve diğer ülkeler): Dakika başı 6.50 TL. Detaylı ülke listesi için müşteri hizmetlerimizi arayabilirsiniz."
+    },
+    {
+      "soru": "Hangi tarifeler mevcut ve hangisi bana uygun?",
+      "cevap": "Mevcut tarifelerimiz: Genç Tarife (Aylık 150 TL, 20GB+Sınırsız konuşma), Aile Tarife (Aylık 200 TL, 35GB+Sınırsız konuşma+SMS), Premium Tarife (Aylık 300 TL, 60GB+Sınırsız her şey). Kullanım alışkanlığınıza göre en uygun tarife için 444 0 XXX numaramızı arayarak müşteri temsilcimizle görüşebilirsiniz."
+    },
+    {
+      "soru": "Faturamı nasıl görüntüleyebilirim?",
+      "cevap": "Fatura tutarınızı öğrenmek için kimlik doğrulaması yapmanız gerekmektedir. Lütfen T.C. kimlik numaranızı, telefon numaranızı ve müşteri numaranızı hazır bulundurun. Bu bilgileri doğruladıktan sonra güncel fatura tutarınızı size iletebiliriz. Güvenlik nedeniyle bu bilgiler olmadan fatura tutarı verilemez. Müşteri hizmetlerimiz 444 1 444 numarasından 7/24 hizmetinizdeyiz."
+    },
+    {
+      "soru": "Hat taşıma işlemi nasıl yapılır?",
+      "cevap": "Hat taşıma için kimlik bilgilerinizle birlikte bayilerimize başvurabilirsiniz. Gerekli belgeler: T.C. Kimlik kartı, mevcut faturanızın son 3 aylık kopyası. İşlem 1-3 iş günü içinde tamamlanır. Online başvuru da web sitemizden yapılabilir."
+    },
+    {
+      "soru": "Numara değişikliği yapabilir miyim?",
+      "cevap": "Evet, numara değişikliği mümkündür. İşlem ücreti 50 TL'dir. Bayilerimize kimliğinizle başvurarak veya müşteri hizmetlerini arayarak talepte bulunabilirsiniz. Yeni numara seçenekleri size sunulacaktır."
+    },
+    {
+      "soru": "Yeni hat başvurusu için hangi belgeler gerekli?",
+      "cevap": "Bireysel hat için: T.C. Kimlik kartı fotokopisi, ikametgah belgesi. Kurumsal hat için: Vergi levhası, imza sirküleri, yetkili kişinin kimlik belgesi. Yabancı uyruklu müşteriler için pasaport ve ikamet belgesi gereklidir."
+    },
+    {
+      "soru": "Faturamı hangi kanallardan ödeyebilirim?",
+      "cevap": "Fatura ödeme seçenekleriniz: Bayilerimiz, ATM'ler, internet bankacılığı, mobil bankacılık, PTT şubeleri, anlaşmalı marketler, mobil uygulamamız, web sitemiz ve otomatik ödeme talimatı ile ödeme yapabilirsiniz."
+    },
+    {
+      "soru": "Otomatik ödeme talimatı nasıl verilir?",
+      "cevap": "Otomatik ödeme talimatı için bankanızın şubesi, internet bankacılığı veya mobil uygulamasından işlem yapabilirsiniz. Ayrıca müşteri hizmetlerimizi arayarak da talimat verebilirsiniz. Kartınızdan her ay otomatik olarak fatura tutarı çekilecektir."
+    },
+    {
+      "soru": "Faturamda ek ücret görünmesinin nedeni ne olabilir?",
+      "cevap": "Ek ücret sebepleri: Paket aşımı, premium SMS servisleri, yurtdışı kullanımı, ek hizmet abonelikleri, cihaz taksitleri olabilir. Detaylı kullanım dökümü için müşteri hizmetlerimizi arayabilir veya mobil uygulamamızdan inceleyebilirsiniz."
+    },
+    {
+      "soru": "Fatura itirazı nasıl yapılır?",
+      "cevap": "Fatura itirazınızı 444 0 XXX numaramızı arayarak, bayilerimize başvurarak veya web sitemizdeki iletişim formunu doldurarak yapabilirsiniz. İtirazınız 10 iş günü içinde değerlendirilip sonuçlandırılacaktır."
+    },
+    {
+      "soru": "Faturamın son ödeme tarihini erteleyebilir miyim?",
+      "cevap": "Olağanüstü durumlar için son ödeme tarihi en fazla 15 gün ertelenebilir. Bu durum için müşteri hizmetlerimizi arayarak talepte bulunmanız gerekiyor. Sürekli erteleme mümkün değildir ve ek faiz uygulanabilir."
+    },
+    {
+      "soru": "SIM kartımı kaybettim, nasıl yenileyebilirim?",
+      "cevap": "Kayıp SIM için derhal 444 0 XXX'i arayarak hattınızı geçici kapatın. Kimliğinizle bayilerimize başvurarak yeni SIM temin edebilirsiniz. İşlem ücreti 25 TL'dir. Yeni SIM 1 saat içinde aktif hale gelir."
+    },
+    {
+      "soru": "eSIM desteğiniz var mı?",
+      "cevap": "Evet, eSIM desteğimiz mevcuttur. iPhone XS ve sonrası, Samsung Galaxy S20 ve sonrası modeller desteklenir. eSIM aktivasyonu için uyumlu cihazınızla bayilerimize başvurun veya mobil uygulamamızdan QR kod ile aktivasyon yapın."
+    },
+    {
+      "soru": "Telefonum şebeke çekmiyor, ne yapmalıyım?",
+      "cevap": "Önce cihazınızı yeniden başlatın, şebeke ayarlarını sıfırlayın. Sorun devam ederse: SIM kartı temizliği yapın, başka cihazda test edin. Bölgesel şebeke sorunu için 444 0 XXX'i arayarak arıza bildirimi yapın."
+    },
+    {
+      "soru": "SIM kartım takılı ama 'Servis Yok' uyarısı alıyorum, neden?",
+      "cevap": "Bu durum SIM kart hasarı, şebeke ayar problemi veya cihaz uyumsuzluğundan kaynaklanabilir. SIM kartı temizleyip başka cihazda test edin. Problem devam ederse bayimizden SIM değişimi yaptırın veya müşteri hizmetlerini arayın."
+    },
+    {
+      "soru": "Cihaz kilit açma işlemleri nasıl yapılır?",
+      "cevap": "Cihaz kilit açma için hattın en az 3 ay aktif kullanımda olması gerekir. IMEI numaranızla birlikte müşteri hizmetlerimizi arayın. İşlem ücreti 150 TL'dir ve 1-3 iş günü sürer. Bazı cihaz modelleri için özel prosedürler uygulanabilir."
+    },
+    {
+      "soru": "İnternet paketim bittiğinde ne olur?",
+      "cevap": "Paket bitiminde otomatik olarak ek internet paketleri devreye girer (50MB-10TL). Bu özelliği kapatmak için *123# tuşlayın. Alternatif olarak yeni dönem başına kadar internet kullanımınız durdurulabilir."
+    },
+    {
+      "soru": "Ek internet paketi nasıl alınır?",
+      "cevap": "Ek internet paketleri için: *123# menüsünden, mobil uygulamamızdan, 444 0 XXX'i arayarak veya 'INTERNET' yazıp 2222'ye SMS göndererek satın alabilirsiniz. Paket seçenekleri: 1GB-25TL, 3GB-50TL, 5GB-75TL."
+    },
+    {
+      "soru": "İnternet hızım neden yavaş?",
+      "cevap": "Hız yavaşlığı sebepleri: Paket kotası aşımı, yoğun kullanım saatleri, cihaz performansı, konum bazlı şebeke yoğunluğu. Hız testi için mobil uygulamamızı kullanın. Sürekli sorun yaşıyorsanız teknik destek için 444 0 XXX'i arayın."
+    },
+    {
+      "soru": "Yurt dışında internet kullanımı nasıl açılır?",
+      "cevap": "Yurtdışı internet için önceden aktivasyon gereklidir. *123# menüsünden, mobil uygulamamızdan veya müşteri hizmetlerini arayarak roaming paketlerini aktif edebilirsiniz. AB ülkeleri için özel avantajlı paketlerimiz mevcuttur."
+    },
+    {
+      "soru": "Kullanılmayan internet devrediyor mu?",
+      "cevap": "Aylık paketlerde kullanılmayan internet bir sonraki döneme devredilmez. Ancak bazı özel kampanya paketlerinde devir imkanı bulunmaktadır. Güncel tarifenizin devir koşulları için müşteri hizmetlerini arayabilirsiniz."
+    },
+    {
+      "soru": "Yurt dışına çıktığımda hattım otomatik açılır mı?",
+      "cevap": "Hayır, yurtdışı kullanımı için önceden aktivasyon gereklidir. Roaming servisi kapalı olarak gelir. Çıkış öncesi mutlaka roaming paketlerinizi aktif edin, aksi halde yüksek ücretlerle karşılaşabilirsiniz."
+    },
+    {
+      "soru": "Roaming ücretleri nedir?",
+      "cevap": "Roaming ücretleri ülkeye göre değişir: AB ülkeleri (dakika 8.50TL, SMS 2.85TL, MB 0.50TL), Diğer ülkeler (dakika 15-25TL, SMS 5-8TL, MB 1-3TL). Paket kullanımı çok daha ekonomiktir. Detaylar web sitemizde mevcuttur."
+    },
+    {
+      "soru": "Yurt dışında aranabilmek için ne yapmalıyım?",
+      "cevap": "Yurtdışında aranabilmeniz için roaming servisinizin aktif olması yeterlidir. Sizi arayanlara ek ücret yansımaz, ancak sizin yanıtlama ücretiniz bulunduğunuz ülkeye göre dakika başı 5-15 TL arasında değişir."
+    },
+    {
+      "soru": "Yurt dışı kullanım paketleri nasıl satın alınır?",
+      "cevap": "Yurtdışı paketleri için: *123# tuşlayıp roaming menüsüne girin, mobil uygulamamızdan satın alın veya 444 0 XXX'i arayın. Paketler çıkıştan 24 saat önce satın alınmalıdır. Gün bazlı ve haftalık seçenekler mevcuttur."
+    },
+    {
+      "soru": "Yurt dışında internet kullanımı kapatılabilir mi?",
+      "cevap": "Evet, yurtdışı internet kullanımı kapatılabilir. *123# menüsünden veya müşteri hizmetlerini arayarak sadece sesli arama ve SMS servisleri aktif bırakılabilir. Bu sayede beklenmedik internet ücretlerinden korunursunuz."
+    },
+    {
+      "soru": "Arama yapamıyorum, neden olabilir?",
+      "cevap": "Arama yapamama sebepleri: Hat borcu, şebeke sorunu, cihaz arızası, SIM kart problemi, arama kısıtlaması. Önce hattınızı kontrol edin (*123#), cihazı yeniden başlatın. Sorun devam ederse müşteri hizmetlerini arayın."
+    },
+    {
+      "soru": "SMS gönderemiyorum, nasıl çözebilirim?",
+      "cevap": "SMS sorunu için: Mesaj merkezi numarasını kontrol edin, cihazı yeniden başlatın, SIM kartı temizleyin. Mesaj merkezi numarası +90 532 441 00 00 olmalıdır. Sorun devam ederse teknik destek için 444 0 XXX'i arayın."
+    },
+    {
+      "soru": "Ses kalitesi düşük, ne yapmalıyım?",
+      "cevap": "Ses kalitesi için: Bulunduğunuz konumun şebeke kapsamını kontrol edin, cihazın ses ayarlarını kontrol edin, kulaklık/hoparlör arızası test edin. VoLTE özelliği varsa aktif edin. Sürekli sorun için teknik destek alın."
+    },
+    {
+      "soru": "Şebeke kapsama alanınızı nasıl öğrenebilirim?",
+      "cevap": "Kapsama alanı bilgisi için web sitemizdeki 'Kapsama Haritası' bölümünü ziyaret edin, mobil uygulamamızdan kontrol edin veya belirli bir adres için müşteri hizmetlerini arayarak bilgi alabilirsiniz."
+    },
+    {
+      "soru": "Modem/telefon ayarlarını nasıl sıfırlarım?",
+      "cevap": "Cihaz ayarları sıfırlama: Android için Ayarlar>Sistem>Sıfırla, iPhone için Ayarlar>Genel>Sıfırla. Şebeke ayarları için Ayarlar>Mobil Şebeke>Şebeke Operatörleri'nden otomatik seçimi aktif edin. Detaylı yardım için teknik destek arayın."
+    }
+  ]
+}

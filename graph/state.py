@@ -33,6 +33,7 @@ class GraphState(TypedDict, total=False):
     # Control flow
     needs_function_call: bool
     retry_count: int
+    needs_retry: bool
 
 
 def create_initial_state(question: str) -> GraphState:

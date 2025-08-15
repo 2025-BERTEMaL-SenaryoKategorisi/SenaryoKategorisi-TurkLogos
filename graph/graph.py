@@ -11,7 +11,7 @@ from graph.nodes.route_question import route_question_node
 from graph.nodes.retrieve import retrieve  # Change this line
 from graph.nodes.grade_documents import grade_documents
 from graph.nodes.function_calls import function_calls_node
-from graph.nodes.generation import generate_answer_node
+from graph.nodes.generation import generate_answer_node, regenerate_answer_node
 from graph.nodes.grade_answer import grade_answer_node
 from graph.nodes.reject_question import reject_question_node
 
@@ -27,6 +27,7 @@ def create_telecom_workflow():
     workflow.add_node("grade_documents", grade_documents)
     workflow.add_node("function_calls", function_calls_node)
     workflow.add_node("generate", generate_answer_node)
+    workflow.add_node("regenerate", regenerate_answer_node)  # New retry node
     workflow.add_node("grade_answer", grade_answer_node)
     workflow.add_node("reject_question", reject_question_node)
 
@@ -52,8 +53,18 @@ def create_telecom_workflow():
         else:
             return "function_calls"
 
-    def should_continue_after_answer_grade(state: GraphState) -> Literal["__end__"]:
-        return "__end__"
+    def should_continue_after_answer_grade(state: GraphState) -> Literal["regenerate", "__end__"]:
+        """After grading answer: retry if bad, end if good"""
+        needs_retry = state.get("needs_retry", False)
+        retry_count = state.get("retry_count", 0)
+        answer_grade = state.get("answer_grade", False)
+
+        print(f"🔍 Debug - needs_retry: {needs_retry}, retry_count: {retry_count}, answer_grade: {answer_grade}")
+
+        if needs_retry and retry_count <3:
+            return "regenerate"
+        else:
+            return "__end__"
 
     # Add conditional edges
     workflow.add_conditional_edges(
@@ -83,10 +94,12 @@ def create_telecom_workflow():
         }
     )
 
+
     workflow.add_conditional_edges(
         "grade_answer",
         should_continue_after_answer_grade,
         {
+            "regenerate": "regenerate",
             "__end__": "__end__"
         }
     )
@@ -95,6 +108,7 @@ def create_telecom_workflow():
     workflow.add_edge("retrieve", "grade_documents")
     workflow.add_edge("function_calls", "generate")
     workflow.add_edge("generate", "grade_answer")
+    workflow.add_edge("regenerate", "grade_answer")
     workflow.add_edge("reject_question", "__end__")
 
     return workflow.compile()

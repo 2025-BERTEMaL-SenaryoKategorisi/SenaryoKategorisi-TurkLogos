@@ -10,6 +10,7 @@ def grade_answer_node(state: GraphState) -> GraphState:
 
     question = state["question"]
     generation = state["generation"]
+    retry_count = state.get("retry_count", 0)
 
     try:
         grade_result = answer_grader.invoke({
@@ -20,8 +21,23 @@ def grade_answer_node(state: GraphState) -> GraphState:
         is_good = grade_result.binary_score.lower() == "yes"  # Convert string to bool
         print(f"Answer grade: {'✅ Good' if is_good else '❌ Needs improvement'}")
 
-        return {**state, "answer_grade": is_good}
+        # If answer is bad and we haven't retried too much, mark for retry
+        if not is_good and retry_count < 2:  # Allow max 2 retries
+            print(f"🔄 Answer needs improvement, retry #{retry_count + 1}")
+            return {
+                **state,
+                "answer_grade": False,
+                "needs_retry": True,
+                "retry_count": retry_count + 1
+            }
+
+            # Answer is good OR we've tried enough times
+        return {
+            **state,
+            "answer_grade": is_good,
+            "needs_retry": False
+        }
 
     except Exception as e:
         print(f"❌ Error grading answer: {e}")
-        return {**state, "answer_grade": True}  # Default to good on error
+        return {**state, "answer_grade": True, "needs_retry": False}  # Default to good on error

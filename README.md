@@ -19,8 +19,9 @@ Bu proje, TEKNOFEST 2025 **#BilisimVadisi2025** etkinliği kapsamında geliştir
 
 
 ## 🚀 Proje Genel Bakış
-
-TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini otomatikleştirmek için geliştirilmiş kapsamlı bir yapay zeka sistemidir. Proje, LangChain ve modern AI teknolojileri kullanarak akıllı müşteri destek ajanı sunar.
+TürkLogos Projesi, kurumların ve işletmelerin müşteri iletişiminde yaşadığı uzun bekleme süreleri, insan hatası riski ve yüksek operasyon maliyetleri gibi temel sorunlara çözüm üretmeyi amaçlayan yapay zekâ destekli bir sistemdir.
+Proje, konuşmaları otomatik olarak anlayan, analiz eden ve yanıtlayan bir altyapı geliştirir. Bu sayede müşteri temsilcilerine bağımlılık azalır, işlem süreleri kısalır ve hatalı bilgi aktarımı en aza iner.
+Ayrıca erişilebilirlik ilkesi gözetilerek geliştirilen sistem, toplumun tüm kesimleri için daha kapsayıcı ve eşit bir iletişim deneyimi sunar.
 
 ### 🎯 Ana Özellikler
 
@@ -28,7 +29,6 @@ TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini oto
 - **🎤 Ses Tanıma**: OpenAI Whisper ile Türkçe STT (Speech-to-Text)
 - **💬 Çok Kanallı İletişim**: Ses ve metin tabanlı etkileşim
 - **📊 Gerçek Zamanlı Analytics**: Performans izleme ve raporlama
-- **🔐 Güvenli Kimlik Doğrulama**: JWT tabanlı güvenlik sistemi
 - **📱 Modern Frontend**: React TypeScript ile responsive arayüz
 - **🐳 Containerized**: Docker ile kolay dağıtım
 
@@ -47,21 +47,52 @@ TürkLogos Telecom AI Agent, telecom operatörlerinin müşteri hizmetlerini oto
 - **Context Awareness**: Bağlam farkındalığı
 
 ### **Desteklenen Senaryolar**
-- **👤 Müşteri Kimlik Doğrulama**: Telefon numarası ve kişisel bilgi kontrolü
-- **📞 Fatura Sorgulama**: Güncel ve geçmiş fatura bilgileri
-- **📦 Paket Yönetimi**: Tarife değişiklikleri ve öneriler
-- **🔧 Teknik Destek**: Sorun bildirimi ve teknisyen randevusu
-- **❓ Genel Bilgilendirme**: Ürün ve hizmet bilgileri
+-	Yeni Hat Başvurusu
+-	Teknik Destek
+-	Fatura İtirazı
+-	Tarife Seçimi/Değişikliği
+-	Kampanya Sorgulama
+-	Sözleşme Durumu Sorgulama
+-	Tarife Detayları Öğrenme
+-	Hattın Kapatılması/Açılması
+-	Otomatik Ödeme Takibi/Talimatı
+-	Cihaz 5G Uyumluluğu/Yükseltme
+-	Aile Paketi
+-	Kurumsal Hesaba Geçiş
+-	Erişilebilirlik İhtiyacı
+-	Veri Kullanımı Analizi
+-	Acil Servis Talebi
+-	Kayıp/Çalıntı Bildirimi
+-	Cihaz Kampanyası
+-	Ek Paket Satın Alma
+-	Şikayet/Memnuniyet
+-	Doğrudan Fatura Ödeme, Kolay
+-	Ek Paket Satın Alma
+-	Şikayet/Memnuniyet
+-	Doğrudan Fatura Ödeme
+-	Kişisel Bilgi Güncelleme
+-	Faturasız TL Yükleme
+-	Alakasız/Destek Dışı
+
 
 ### **AI Tools & Capabilities**
-```python
-# Kullanılabilir Araçlar
-- authenticate_customer()     # Müşteri doğrulama
-- get_customer_bills()       # Fatura sorgulama
-- get_available_packages()   # Paket listesi
-- create_support_ticket()    # Destek talebi
-- schedule_technician()      # Teknisyen randevusu
-- get_customer_info()        # Müşteri bilgileri
+```python# Kullanılabilir Araçlar
+- authenticate_customer()        # Müşteri doğrulama
+- get_customer_bills()           # Fatura sorgulama
+- get_available_packages()       # Paket listesi
+- create_support_ticket()        # Destek talebi
+- schedule_technician()          # Teknisyen randevusu
+- get_customer_info()            # Müşteri bilgileri
+- answer_grader()                # Yanıt doğrulama
+- hallucination_grader()         # Halüsinasyon tespiti
+- question_grader()              # Soru uygunluk kontrolü
+- retrieval_grader()             # Bilgi getirme uygunluk kontrolü
+- generation_chain()              # Yanıt oluşturma zinciri
+- router()                       # Sorgu yönlendirme
+- memory_manager()               # Diyalog belleği yönetimi (Redis)
+- document_ingestion()           # Verilerin ChromaDB’ye işlenmesi
+- semantic_search()              # Vektör tabanlı semantik arama
+- function_calling()             # Harici API fonksiyon çağrısı
 ```
 
 ## 🛠️ Teknoloji Stack
